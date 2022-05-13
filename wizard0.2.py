@@ -44,8 +44,8 @@ def runtxt(z):
 
 def helpnote():
 	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)"%(G))
-	subprocess.check_output(["am", "start", "https://www.facebook.com/4FR1D1.143"])
-	exit(" [*] FACEBOOK :  https://www.facebook.com/4FR1D1.143")
+	subprocess.check_output(["am", "start", "https://www.facebook.com/profile.php?id=100011355877620"])
+	exit(" [*] FACEBOOK :  https://www.facebook.com/profile.php?id=100011355877620")
 
 
 def notice():
@@ -55,7 +55,7 @@ def notice():
 	runtxt("\n\033[0;91m YOU ARE NOT PREMIUM USER ")
 	runtxt("\033[0;93m SEND THIS KEY TO ADMIN >> %s%s"%(G,basesplit))
 	runtxt("\033[0;92m ADMIN FACEBOOK >> ouss ama")
-	subprocess.check_output(["am", "start", "https://www.facebook.com/4FR1D1.143"])
+	subprocess.check_output(["am", "start", "https://www.facebook.com/profile.php?id=100011355877620"])
 
 
         
@@ -75,7 +75,7 @@ class Main:
 		self.cp = []
 		self.loop = 0
 		try:
-			plr = requests.get('https://raw.githubusercontent.com/MAHADI-143/apporved/main/New%20paid%F0%9F%99%83').text
+			plr = requests.get('https://github.com/wiza13').text
 			if basesplit in plr:
 				key = basesplit
 				stat = ("\033[0;92mP R E M I U M")
@@ -94,14 +94,12 @@ class Main:
 		os.system("clear")
 		
 		print ("""
-		        ___ .___ .______ .______  .______  .______  
-.___    |   |: __|\____  |:      \ : __   \ :_ _   \ 
-:   | /\|   || : |/  ____||   .   ||  \____||   |   |
-|   |/  :   ||   |\      ||   :   ||   :  \ | . |   |
-|   /       ||   | \__:__||___|   ||   |___\|. ____/ 
-|______/|___||___|    :       |___||___|     :/      
-        :             •                      :       
-        :                                            
+__      __ ___     ____    ___     ___   
+\ \    / /|_ _|   |_  /   /   \   |   \  
+ \ \/\/ /  | |     / /    | - |   | |) | 
+  \_/\_/  |___|   /___|   |_|_|   |___/  
+_|"""""|_|"""""|_|"""""|_|"""""|_|"""""| 
+"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'                            
 \033[1;97m••••••••••••••••••••••••••••••••••••••••••••••••••••••••
      \033[1;92m➣ \033[1;92mDEVOLPER   :            WIZARD OUSSAMA
      \033[1;91m➣ \033[1;92mFACEBOOK   :            oussama smix
@@ -116,11 +114,11 @@ class Main:
 		print("%s [%sâ€¢%s] %sSTATUS    : %s"%(G,R,G,Y,stat)) 
 		print("\n\x1b[1;93m••••••••••••••••••••••••••••••••••••••••••••••••••••••••  ")
 		print("\n%s [%s1%s]%s CRACK RANDOM FB ID 2008-11 %s(FREE)"%(G,R,G,Y,W))
-		print("%s [%s2%s]%s CRACK RANDOM FB ID 2004-5 %s(PRO) V1"%(G,R,G,Y,G))
-		print("%s [%s3%s]%s CRACK RANDOM FB ID 2004-5 %s(PRO) V2"%(G,R,G,Y,G))
-		print("%s [%s4%s]%s CRACK RANDOM FB ID 2004 %s(PRO) V3"%(G,R,G,Y,G))
-		print("%s [%s5%s]%s CRACK FROM EMAILS %s(PRO)"%(G,R,G,Y,G))
-		print("%s [%s6%s]%s CRACK RANDOM FB ID Custom %s(PRO) V1"%(G,R,G,Y,G))
+		print("%s [%s2%s]%s CRACK RANDOM FB ID 2004-5 %s(FREE) V1"%(G,R,G,Y,W))
+		print("%s [%s3%s]%s CRACK RANDOM FB ID 2004-5 %s(FREE) V2"%(G,R,G,Y,W))
+		print("%s [%s4%s]%s CRACK RANDOM FB ID 2004 %s(FREE) V3"%(G,R,G,Y,W))
+		print("%s [%s5%s]%s CRACK FROM EMAILS %s(FREE)"%(G,R,G,Y,W))
+		print("%s [%s6%s]%s CRACK RANDOM FB ID Custom %s(FREE) V1"%(G,R,G,Y,W))
 		print(GET)
 		hoga = input("\n%s [?] CHOICE : "%(Y))
 		if hoga in ["", " "]:
